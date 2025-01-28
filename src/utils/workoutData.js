@@ -1,0 +1,37 @@
+export const workouts = {
+    "Chest and Triceps": [
+      "Bench Press",
+      "Inclined Bench Press",
+      "Dumbbell Bench Press",
+      "Tricep Curls 1",
+      "Tricep Curls 2",
+    ],
+    "Back and Shoulders": [
+      "Shoulder Press",
+      "Pull-Ups",
+      "Lat Pulldown (Wide Grip)",
+      "Lat Pulldown (Narrow Grip)",
+      "Seated Cable Pull",
+      "Dumbbell Pullover",
+    ],
+    "Cardio and Biceps": [
+      "Cross Trainer",
+      "Treadmill",
+      "Jumping Jacks",
+      "Crunches",
+      "Side Plank",
+      "Planks",
+      "Core Machine",
+      "Bicep Curls",
+    ],
+    "Legs and Core": [
+      "Leg Stretches",
+      "Squats",
+      "Leg Press",
+      "Smith Machine Weighted Squats",
+      "Hamstring Extension",
+      "Leg Extension",
+      "Calf Raise",
+      "Treadmill",
+    ],
+  };

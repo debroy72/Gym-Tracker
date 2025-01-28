@@ -1,0 +1,284 @@
+/* 🌟 General Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #252538);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* 📌 Dashboard Header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.dashboard-header h1 {
+  font-size: 28px;
+  color: #ffcc00;
+  text-transform: uppercase;
+  flex: 1;
+  text-align: center;
+}
+
+/* 🚪 Logout Button */
+.logout-button {
+  padding: 10px 15px;
+  background: #ff4747;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background: #ff2e2e;
+}
+
+/* 🔻 Workout Selector */
+.workout-selector {
+  margin-top: 20px;
+}
+
+.workout-selector select {
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  background: #252538;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 250px;
+  text-align: center;
+}
+
+.workout-selector select:hover {
+  background: #32324a;
+}
+
+/* 📋 Workout List */
+.workout-list {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+/* 🏋️‍♂️ Workout Cards */
+.workout-card {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 12px;
+  width: 90%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 🏋️‍♂️ Ensure Exercise Titles are Visible */
+.workout-card h3 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* 📥 Workout Inputs - Ensure 3 Weights are Aligned */
+.workout-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+/* 🎯 Fixed Reps Display */
+.fixed-reps {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin: 5px 0;
+}
+
+/* 🏋️‍♂️ Three Weight Inputs Formatting */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  width: 30%;
+  text-align: center;
+}
+
+input[type="number"] {
+  width: 70px;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(0, 0, 0);
+  outline: none;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+input[type="number"]:focus {
+  background: rgba(4, 4, 4, 0.3);
+}
+
+/* 🔘 Buttons */
+button {
+  padding: 12px 20px;
+  background: #ffcc00;
+  color: #1e1e2f;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: #ffdb4d;
+}
+
+/* 🔐 Login Page Styling */
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h2 {
+  color: #ffcc00;
+  margin-bottom: 15px;
+}
+
+.login-container input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 16px;
+}
+
+.login-container input::placeholder {
+  color: #bbb;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* 📈 Weekly Progress Chart */
+.progress-chart {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.progress-chart h2 {
+  color: #ffcc00;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* 📈 Progress Toggle Button */
+.progress-toggle {
+  margin: 20px auto;
+  padding: 12px 20px;
+  background: #ffcc00;
+  color: #1e1e2f;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: block;
+}
+
+.progress-toggle:hover {
+  background: #ffdb4d;
+}
+
+/* 🗑️ Reset Progress Button */
+.reset-button {
+  margin: 20px auto;
+  padding: 12px 20px;
+  background: #ff4d4d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: block;
+}
+
+.reset-button:hover {
+  background: #ff3333;
+}
+
+/* 🎨 Black Labels for Completed, Sets, and Weights */
+.black-label {
+  color: black;
+  font-weight: bold;
+}
+
+.best-lifts, .achievements {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.best-lifts h2, .achievements h2 {
+  color: #ffcc00;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
